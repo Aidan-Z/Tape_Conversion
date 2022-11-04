@@ -23,7 +23,7 @@ def find_slots_remaining():
 x = find_slots_remaining()                                  
 slots_remaining = round(x)                                  
 print('There are:',slots_remaining, 'slots remaining') 
-
+print('===============================')
 in_metres = (x * length_slot) / 100
 print('There are: ', in_metres, 'metres remaining')
 
