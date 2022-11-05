@@ -25,7 +25,7 @@ x = find_slots_remaining()                                  # call function
 slots_remaining = round(x)                                  # round to nearest whole number
 print('There are:',slots_remaining, 'slots remaining') 
 print('===============================')
-in_metres = (x * length_slot) / 100                         # convert to metres of reel left
+in_metres = round(((x * length_slot) / 100), 3)                        # convert to metres of reel left
 print('There are: ', in_metres, 'metres remaining')
 
 
